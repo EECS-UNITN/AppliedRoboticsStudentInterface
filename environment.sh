@@ -13,6 +13,7 @@ then
       source "$(dirname "${BASH_SOURCE[0]}" )/aliases"
       printf "\t\t* \e[32m DONE!\n\e[0m"
   fi
+  LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$AR_ROOT/build
 else
   printf "\t*\e[33m Seems that you already source this environment.\e[0m\n"  
 fi
