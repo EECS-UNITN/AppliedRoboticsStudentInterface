@@ -5,18 +5,22 @@
 #include <sstream>
 namespace student {
 
+ void loadImage(cv::Mat& img_out, const std::string& config_folder){  
+   throw std::logic_error( "STUDENT FUNCTION NOT IMPLEMENTED" );
+ }
+
  void genericImageListener(const cv::Mat& img_in, std::string topic, const std::string& config_folder){
-  	throw std::logic_error( "STUDENT FUNCTION NOT IMPLEMENTED" );
+    throw std::logic_error( "STUDENT FUNCTION NOT IMPLEMENTED" );
   }
 
   bool extrinsicCalib(const cv::Mat& img_in, std::vector<cv::Point3f> object_points, const cv::Mat& camera_matrix, cv::Mat& rvec, cv::Mat& tvec, const std::string& config_folder){
     throw std::logic_error( "STUDENT FUNCTION NOT IMPLEMENTED" );   
   }
 
-	void imageUndistort(const cv::Mat& img_in, cv::Mat& img_out, 
-					const cv::Mat& cam_matrix, const cv::Mat& dist_coeffs, const std::string& config_folder){
+  void imageUndistort(const cv::Mat& img_in, cv::Mat& img_out, 
+          const cv::Mat& cam_matrix, const cv::Mat& dist_coeffs, const std::string& config_folder){
 
-    throw std::logic_error( "STUDENT FUNCTION NOT IMPLEMENTED" );	
+    throw std::logic_error( "STUDENT FUNCTION NOT IMPLEMENTED" );  
 
   }
 
